@@ -2,6 +2,10 @@
 
 Shows ports that are open on your system and gives you the ability to kill their process.(linux only)
 
+# Demo
+
+![Demo](https://user-images.githubusercontent.com/10884422/160275652-1d02a36f-2bce-40f3-9470-2c69a3a1fd37.mp4)
+
 # Installation
 
 ### Vim-Plug
