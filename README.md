@@ -33,6 +33,21 @@ require('telescope').load_extension('ports')
 # Usage
 `:Telescope ports`
 
+## Default mappings (insert mode):
+
+| Key   | Description                                                   |
+| ---   | ------------------------------------------------------------- |
+| `c-k` | kill current process                                          |
+
+## Default mappings (normal mode):
+
+| Key   | Description                                                   |
+| ---   | ------------------------------------------------------------- |
+| `c-k` | kill current process                                          |
+
+# Usage
+`:Telescope command_palette`.
+
 ## SUDO_ASKPASS
 telescope-ports.nvim uses `sudo` internally, so we need to setup an __askpass helper__ for it.
 
@@ -68,3 +83,7 @@ If you have any idea to improve this project, please create a pull-request for i
 3. Please use [snake_case](https://en.wikipedia.org/wiki/Snake_case) for function names ans local variables
 4. If your PR have more than one commit, please squash them into one.
 5. Use meaningful name for variables and functions. Don't use abbreviations as far as you can.
+
+# Roadmap :blue_car:
+- [ ] This plugin should work on windows.
+- [ ] Not all systme use `sudo`. There are other [alternatives](https://www.sudo.ws/docs/alternatives/). There should be a mechanism to distinguish between these alternatives and behave uniformly with all of them.
