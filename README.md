@@ -4,7 +4,7 @@ Shows ports that are open on your system and gives you the ability to kill their
 
 # Demo
 
-https://user-images.githubusercontent.com/10884422/160275652-1d02a36f-2bce-40f3-9470-2c69a3a1fd37.mp4
+https://user-images.githubusercontent.com/10884422/160286989-bf49e7e1-ef91-419c-9c25-da94c68e564a.mp4
 
 # Installation
 
